@@ -1,0 +1,57 @@
+---
+title: "實驗鳥禽的生理與實務管理"
+subtitle: "從科學化設計 (3R) 到動物福利"
+
+author:
+  - name: "陳敬元 助理研究員 Jing-Yuan Chen, DVM, PhD"
+    email: jychen@niar.org.tw
+    orcid: 0000-0001-8021-2369
+    affiliations: "National Center for Biomodels<br>National Institutes of Applied Research"
+date: 2026-08-28
+
+project:
+  type: default
+
+format:
+  clean-revealjs:
+    logo: figs/ncb_logo.webp
+    slide-number: true
+    transition: slide
+    embed-resources: true
+    hash: true
+    navigation-mode: linear
+    center: false
+    html-math-method: plain
+
+    excalidraw:
+      button: false
+      shortcut: "`"
+    pointer:
+      key: "a"
+      alwaysVisible: "true"
+      color: "green"
+    quiz:
+      shuffleOptions: false
+
+    revealjs-plugins:
+      - quiz
+      - pointer
+      - style-speaker-note
+      - excalidraw
+      - confetti
+      - pointer-sync
+      - flashcards
+
+execute:
+  echo: false
+  warning: false
+  message: false
+
+filters:
+  - roughnotation
+
+css: style-slide-lecture.css
+---
+{{< include content1.qmd >}}
+{{< include content2.qmd >}}
+{{< include content3.qmd >}}
